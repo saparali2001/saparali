@@ -1,0 +1,16 @@
+.col{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    border-radius: 20px;
+    border: 1px solid red;
+    transition: all 2s ease;
+}
+
+.col:hover{
+    border-radius: 50px;
+}
+
+.col:active{
+    border-radius: 50px 10px;
+}
